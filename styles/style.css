@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Bookshelft';
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html{
+    font-size: 16px;
+}
+
+body {
+	line-height: 1;
+}
+
+/* Bagian Header Content */
+
+header{
+    text-align: center;
+    width: 95%;
+    padding: 30px;
+    background-color: BurlyWood;
+    font-family: 'Bookshelft';
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+
+/* Bagian Main Content */
+
+main{
+    background-color: #FFF5E1;
+    width: 95%;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Bookshelft';
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: bold;
+} 
+
+.form-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    line-height: 40px;
+}
+
+
+/* .form-control{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+input{
+    border-radius: 5px;
+}
+*/
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+.form-control-check{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control-check label{
+    margin-left: 10px;
+}
+
+.button-control{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.button-control button{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: BurlyWood;
+    border: 0;
+}
+
+.button-control button:hover{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button-control button span{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.form-control-search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-control-search input{
+    width: 55%;
+}
+
+.form-control-search button{
+    width: 20%;
+    height: 35px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.form-control-search label{
+    width: 5%;
+    margin-right: 5px;
+}
+
+
+
+section .title-read{
+    width: 80%;
+    text-align: start;
+}
+
+
+.chart-book{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inner{
+    background-color: #FBF8F1;
+    padding: 10px;
+    line-height: 30px;
+    margin-top: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+}
+
+.inner .button-uncomplete button{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 10px 0 0;
+}
+
+
+.inner .button-uncomplete{
+    display: flex;
+    align-items: center;
+}
+
